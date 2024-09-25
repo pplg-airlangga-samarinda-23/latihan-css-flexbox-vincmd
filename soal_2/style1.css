@@ -1,12 +1,18 @@
-.container {
-    display: flex;
-    justify-content: space-evenly;
-
+html,
+body {
+    height: 100%;
 }
 
-.home {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.child {
     display: inline-block;
-    width: 70px;
+    width: 100x;
     height: 30px;
     background-color: lightblue;
     border: 3px solid black;
